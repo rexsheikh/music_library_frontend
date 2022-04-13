@@ -17,7 +17,7 @@ function App() {
 
   function newSearch(search){   {/*this takes in the search as a string*/}
     let newSongs= songs.filter(function(el){
-    if(el.title.includes(search) || el.artist.includes(search || el.album.includes(search) || el.release_date.includes(search) || el.genre.includes(search))){
+    if(el.title.includes(search) || el.artist.includes(search) || el.album.includes(search) || el.release_date.includes(search) || el.genre.includes(search)){
         return true;
       }
     })
